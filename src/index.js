@@ -10,9 +10,4 @@ app.listen(3000, ()=>{
 //  res.send('Hello World!')
 //})
 
-app.route('/users')
-// READ
-.get(req,res)=>{
-  // User.findById()
-
-})
+app.get('/users')
