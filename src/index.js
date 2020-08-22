@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/users', function (req, res) {
-  User.find({}, function (err, users) {
+  req.find({}, function (err, users) {
         res.send(users);
     })
 })
