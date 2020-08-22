@@ -6,8 +6,10 @@ const app= express();
 app.listen(3000, ()=>{
 })
 
-app.get('/users', function (req, res) {
+app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-//app.get('/users')
+app.get('/users', function (req, res) {
+
+)
