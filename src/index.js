@@ -1,7 +1,7 @@
 const express= require('express');
 const app= express();
 
-const User=require('./models/User');
+//const User=require('./models/User');
 
 app.listen(3000, ()=>{
 })
