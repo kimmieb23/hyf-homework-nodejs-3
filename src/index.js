@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 
 app.route('/users')
 // READ
-.get((req,res)=>{
+.get(req,res)=>{
   // User.findById()
-        )
+
 })
